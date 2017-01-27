@@ -7,8 +7,37 @@ var twit_token_secret = k.twitterKeys.access_token_secret;
 var Twitter = require('twitter');
 var moment = require('moment');
 var spotify = require('spotify');
+var request = require('request');
 
 var command = process.argv[2];
+var qryParm = "";
+
+function getArguments() {
+	if (!(process.argv[3] == null)) {
+	var i = 3;
+	qryParm = process.argv[i];
+	i++;
+	while (!(process.argv[i] == null)) {
+		qryParm = qryParm + "+" + process.argv[i];
+		i++; 
+		} 
+	}
+
+	qryParm = qryParm.replace(" ", "+");
+	qryParm = qryParm.replace(".", "");
+	qryParm = qryParm.replace("-", "");
+	qryParm = qryParm.replace("(", "");
+	qryParm = qryParm.replace(")", "");
+	qryParm = qryParm.replace("_", "");
+	qryParm = qryParm.replace(".", "");
+	qryParm = qryParm.replace("!", "");
+	qryParm = qryParm.replace("@", "");
+	qryParm = qryParm.replace("#", "");
+	qryParm = qryParm.replace("$", "");
+	qryParm = qryParm.replace("%", "");
+	qryParm = qryParm.replace("^", "");
+	qryParm = qryParm.replace("&", ""); 
+}
 
 function myTweets() {
 
@@ -40,17 +69,9 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 
 function spotifyThisSong() {
 
-var qryParm = "ace of base the sign";
+qryParm = "ace of base the sign";
 
-if (!(process.argv[3] == null)) {
-	var i = 3;
-	qryParm = process.argv[i];
-	i++;
-	while (!(process.argv[i] == null)) {
-		qryParm = qryParm + "+" + process.argv[i];
-		i++; 
-	} 
-} 
+getArguments();
 
 spotify.search({ type: 'track', query: qryParm }, function(err, data) {
     if ( err ) {
@@ -79,6 +100,35 @@ spotify.search({ type: 'track', query: qryParm }, function(err, data) {
 });
 	
 } // end spotifyThisSong function
+
+function movieThis() {
+
+qryParm = "mr. nobody";
+
+getArguments();
+
+requestURL = "http://www.omdbapi.com/?t=" + qryParm + "&tomatoes=true";
+
+request(requestURL, function (error, response, body) {
+  if (!error && response.statusCode == 200) {
+	var movieTitle = "Movie Title: " + JSON.parse(body).Title;
+	var releaseYr = "Release Year: " + JSON.parse(body).Year;
+	var imdbRating = "IMDB Rating: " + JSON.parse(body).imdbRating;
+	var cntry = "Country(ies) Produced in: " + JSON.parse(body).Country;
+	var lang = "Movie Language(s): " + JSON.parse(body).Language;
+	var plot = "Movie Plot: " + JSON.parse(body).Plot;
+	var actors = "Actors: " + JSON.parse(body).Actors;
+	var rtRating = "Rotten Tomatoes Rating: " + JSON.parse(body).tomatoRating;
+	var rtURL = "Rotten Tomatoes URL: " + JSON.parse(body).tomatoURL;
+
+	console.log("\n" + movieTitle + "\n" + releaseYr + "\n" + imdbRating + 
+	"\n" + cntry + "\n" + lang + "\n" + plot + "\n" + actors + "\n" + rtRating + "\n" + rtURL + "\n" );
+	} else {
+	console.log("\n" + "No movie found! Please try again.");
+	}
+});
+
+} // end movieThis function
 
 
 
