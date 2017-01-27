@@ -40,30 +40,42 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 
 function spotifyThisSong() {
 
-// var params = {
-// 	screen_name: 'VinnyV88',
-// 	count: 20
-// };
+var qryParm = "ace of base the sign";
 
-spotify.search({ type: 'track', query: 'ace of base the sign' }, function(err, data) {
+if (!(process.argv[3] == null)) {
+	var i = 3;
+	qryParm = process.argv[i];
+	i++;
+	while (!(process.argv[i] == null)) {
+		qryParm = qryParm + "+" + process.argv[i];
+		i++; 
+	} 
+} 
+
+spotify.search({ type: 'track', query: qryParm }, function(err, data) {
     if ( err ) {
         console.log('Error occurred: ' + err);
         return;
     }
-	var artistsCount = data.tracks.items[0].album.artists.length;
-	var artists = "Artist(s): " + data.tracks.items[0].album.artists[0].name;
-	if (artistsCount > 1) {
-		for (var i = 1; i < artistsCount; i++) {
-			artists = artists + ", " + data.tracks.items[0].album.artists[i].name
+
+	if (data.tracks.total > 0) { 
+		var artistsCount = data.tracks.items[0].album.artists.length;
+		var artists = "Artist(s): " + data.tracks.items[0].album.artists[0].name;
+		if (artistsCount > 1) {
+			for (var i = 1; i < artistsCount; i++) {
+				artists = artists + ", " + data.tracks.items[0].album.artists[i].name
+			}
 		}
+
+		var songTitle = "Song Title: " + data.tracks.items[0].name;
+		var previewURL = "Preview URL: " + data.tracks.items[0].preview_url;
+		var albumTitle = "Album Title: " + data.tracks.items[0].album.name;
+
+		console.log("\n" + artists + "\n" + songTitle + "\n" + previewURL + "\n" + albumTitle + "\n" );
+	} else {
+		console.log("\n" + "No tracks were found! Please try again.");
 	}
 
-	var songTitle = "Song Title: " + data.tracks.items[0].name;
-	var previewURL = "Preview URL: " + data.tracks.items[0].preview_url;
-	var albumTitle = "Album Title: " + data.tracks.items[0].album.name;
-
-	console.log(artists + "\n" + songTitle + "\n" + previewURL + "\n" + albumTitle + "\n" );
-    // Do something with 'data' 
 });
 	
 } // end spotifyThisSong function
