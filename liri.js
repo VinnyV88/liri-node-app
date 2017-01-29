@@ -8,7 +8,8 @@ var Twitter = require('twitter');
 var moment = require('moment');
 var spotify = require('spotify');
 var request = require('request');
-var fs = require('fs');
+var fs = require('fs-promise');
+var os = require("os");
 
 function execCommand(cmd) {
 
@@ -30,7 +31,7 @@ function execCommand(cmd) {
 			doWhatItSays();
 			break;
 		default:
-			console.log("Invalid command! Please try again.")
+			consoleAndLog("Invalid command! Please try again.")
 	}
 
 }
@@ -57,6 +58,18 @@ function formatParameters(parms) {
 	return parms;
 }
 
+function consoleAndLog(txt) {
+	var txtFile = "log.txt";
+	console.log(txt);
+	fs.appendFile(txtFile, txt + os.EOL, function(err) {
+		if (err) {
+			console.log("error: " + err);
+			return;
+		}
+		
+	});
+}
+
 function myTweets() {
 
 var client = new Twitter({
@@ -74,16 +87,14 @@ var params = {
 client.get('statuses/user_timeline', params, function(error, tweets, response) {
   if(!error) {
 	for (var i=0; i < tweets.length; i++) {
-	  console.log(tweets[i].text);
-	//   console.log(tweets[i].created_at);
+	  consoleAndLog(tweets[i].text);
 	  var tweetDate = Date.parse(tweets[i].created_at.replace(/( \+)/, ' UTC$1'));
-	//   console.log(tweetDate);
 	  var formattedDate = moment(tweetDate).format('LLLL');
-	  console.log(formattedDate);
-	  console.log("");	
+	  consoleAndLog(formattedDate);
+	  consoleAndLog("");	
 	}  
   } else {
-	  console.log(error);
+	  consoleAndLog(error);
   } 
 });
 	
@@ -95,7 +106,7 @@ if (qryParm === "") qryParm = "ace+of+base+the+sign";
 
 spotify.search({ type: 'track', query: qryParm }, function(err, data) {
     if ( err ) {
-        console.log('Error occurred: ' + err);
+        consoleAndLog('Error occurred: ' + err);
         return;
     }
 
@@ -112,9 +123,9 @@ spotify.search({ type: 'track', query: qryParm }, function(err, data) {
 		var previewURL = "Preview URL: " + data.tracks.items[0].preview_url;
 		var albumTitle = "Album Title: " + data.tracks.items[0].album.name;
 
-		console.log("\n" + artists + "\n" + songTitle + "\n" + previewURL + "\n" + albumTitle + "\n" );
+		consoleAndLog(os.EOL + artists + os.EOL + songTitle + os.EOL + previewURL + os.EOL + albumTitle + os.EOL );
 	} else {
-		console.log("\n" + "No tracks were found! Please try again.");
+		consoleAndLog(os.EOL + "No tracks were found! Please try again.");
 	}
 
 });
@@ -140,10 +151,10 @@ request(requestURL, function (error, response, body) {
 		var rtRating = "Rotten Tomatoes Rating: " + JSON.parse(body).tomatoRating;
 		var rtURL = "Rotten Tomatoes URL: " + JSON.parse(body).tomatoURL;
 
-		console.log("\n" + movieTitle + "\n" + releaseYr + "\n" + imdbRating + 
-		"\n" + cntry + "\n" + lang + "\n" + plot + "\n" + actors + "\n" + rtRating + "\n" + rtURL + "\n" );
+		consoleAndLog(os.EOL + movieTitle + os.EOL + releaseYr + os.EOL + imdbRating + 
+		os.EOL + cntry + os.EOL + lang + os.EOL + plot + os.EOL + actors + os.EOL + rtRating + os.EOL + rtURL + os.EOL );
 		} else {
-		console.log("\n" + "No movie found! Please try again.");
+		consoleAndLog(os.EOL + "No movie found! Please try again.");
 		}
   }
 });
