@@ -76,8 +76,9 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 	for (var i=0; i < tweets.length; i++) {
 	  console.log(tweets[i].text);
 	//   console.log(tweets[i].created_at);
-	  var tweetDate = tweets[i].created_at;
-	  var formattedDate = moment(tweetDate).format('LLLL', false);
+	  var tweetDate = Date.parse(tweets[i].created_at.replace(/( \+)/, ' UTC$1'));
+	//   console.log(tweetDate);
+	  var formattedDate = moment(tweetDate).format('LLLL');
 	  console.log(formattedDate);
 	  console.log("");	
 	}  
