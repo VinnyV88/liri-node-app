@@ -2,7 +2,7 @@
   "name": "liri-node-app",
   "version": "1.0.0",
   "description": "",
-  "main": "keys.js",
+  "main": "liri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/VinnyV88/liri-node-app#readme",
   "dependencies": {
-    "fs-promise": "^1.0.0",
     "moment": "^2.17.1",
     "request": "^2.79.0",
     "spotify": "^0.3.0",

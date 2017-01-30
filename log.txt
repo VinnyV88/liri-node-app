@@ -1,23 +1,26 @@
-﻿@SlimCliffy no matter how many times he says emphatically he's staying, people will continue to question him. Fine,… https://t.co/Z96BR9i35d
-Sunday, January 22, 2017 7:07 PM
-@SlimCliffy more than Van, Fla, and Col? They got a superstar center, a nice mix of young talent and vets. I don't… https://t.co/3YG1Su69x6
+﻿Command: my-tweets
+Paramaters: 
 
-Sunday, January 22, 2017 7:01 PM
+@SlimCliffy no matter how many times he says emphatically he's staying, people will continue to question him. Fine,… https://t.co/Z96BR9i35d
+Sunday, January 22, 2017 7:07 PM
 
 @SlimCliffy #isles
 Sunday, January 22, 2017 6:55 PM
 
-RT @brettyormark: RT &amp; follow me to win my #CEOseats for #Isles vs. Sharks on 10/18. Winner chosen tomorrow morning. #AllForIsles
-Monday, October 17, 2016 9:11 PM
+@SlimCliffy more than Van, Fla, and Col? They got a superstar center, a nice mix of young talent and vets. I don't… https://t.co/3YG1Su69x6
+Sunday, January 22, 2017 7:01 PM
 
 @StapeNewsday nice art! I see he's got your wife's hair color... Pretty cool. That pic immediately reminded me of t… https://t.co/IqnnGv8ZbD
+Thursday, October 13, 2016 8:26 AM
 
 @HaberMetrics5 maybe it's not so much judging PA but more about some kids(JHS, Barzal) proving they're ready and… https://t.co/5tnhKglerR
 Monday, October 10, 2016 11:38 AM
 
 @PJS_27 hopefully Revis will be joining him  #toast
-Thursday, October 13, 2016 8:26 AM
 Thursday, September 15, 2016 8:54 PM
+
+RT @brettyormark: RT &amp; follow me to win my #CEOseats for #Isles vs. Sharks on 10/18. Winner chosen tomorrow morning. #AllForIsles
+Monday, October 17, 2016 9:11 PM
 
 RT @PJS_27: And that's why Rex will be in a broadcast booth the next time these teams play.
 Thursday, September 15, 2016 8:47 PM
@@ -57,4 +60,22 @@ Friday, July 8, 2016 1:07 PM
 
 @KMart_LI This guy was smart enough to turn his gun over right away and turn himself in, else who knows what would have happened.
 Friday, July 8, 2016 9:44 AM
+
+Command: spotify-this-song
+Paramaters: 
+
+
+Artist(s): Ace of Base
+Song Title: The Sign
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=null
+Album Title: The Sign (US Album) [Remastered]
+
+Command: spotify-this-song
+Paramaters: prince+when+doves+cry
+
+
+Artist(s): Rockabye Baby!
+Song Title: When Doves Cry
+Preview URL: https://p.scdn.co/mp3-preview/d2e51e414e4beddef400baa25622be48ccaf8644?cid=null
+Album Title: Lullaby Renditions of Prince
 
