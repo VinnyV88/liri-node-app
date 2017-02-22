@@ -1,1 +1,236 @@
 ﻿
+Command: my-tweets
+Paramaters: 
+
+RT @kylemathews: Introducing Typefaces — self-host open source fonts by converting typefaces into NPM packages.
+
+https://t.co/Txj4FEMb1T
+Wednesday, February 1, 2017 5:41 PM
+
+@SlimCliffy no matter how many times he says emphatically he's staying, people will continue to question him. Fine,… https://t.co/Z96BR9i35d
+Sunday, January 22, 2017 7:07 PM
+
+@SlimCliffy #isles
+Sunday, January 22, 2017 6:55 PM
+
+RT @eggheadio: ...learn about recursion. https://t.co/kzLs3m7HcX https://t.co/VFNBuCbDiA
+Tuesday, January 31, 2017 8:30 AM
+
+RT @brettyormark: RT &amp; follow me to win my #CEOseats for #Isles vs. Sharks on 10/18. Winner chosen tomorrow morning. #AllForIsles
+Monday, October 17, 2016 9:11 PM
+
+@SlimCliffy more than Van, Fla, and Col? They got a superstar center, a nice mix of young talent and vets. I don't… https://t.co/3YG1Su69x6
+Sunday, January 22, 2017 7:01 PM
+
+@StapeNewsday nice art! I see he's got your wife's hair color... Pretty cool. That pic immediately reminded me of t… https://t.co/IqnnGv8ZbD
+Thursday, October 13, 2016 8:26 AM
+
+@HaberMetrics5 maybe it's not so much judging PA but more about some kids(JHS, Barzal) proving they're ready and… https://t.co/5tnhKglerR
+Monday, October 10, 2016 11:38 AM
+
+RT @PJS_27: And that's why Rex will be in a broadcast booth the next time these teams play.
+Thursday, September 15, 2016 8:47 PM
+
+@salvatore51 @StapeNewsday That's assuming Garth is there for the length of 55's contract. No guarantee of that. 55 prob wouldn't chance it
+Thursday, July 28, 2016 4:25 PM
+
+@StapeNewsday What is your logic behind this? opt-out is 3 yrs away, no? Is there another opt-out? Or assuming can get out via other method?
+Thursday, July 28, 2016 2:50 PM
+
+@randimarshall always felt willets was perfect compromise. Still nyc, mass transit, close to LI with parking/tailgating possibilities
+Friday, July 22, 2016 5:47 PM
+
+@StapeNewsday Side deals are allowed, right? GS and McP can make deal to  not take JB. Waives NMC, #isles protect 3D, 7F. 3rd get it done?
+Thursday, July 28, 2016 3:14 PM
+
+OMG! This. is. AMAZING! https://t.co/fxX9sr4B2O
+Tuesday, July 19, 2016 2:15 PM
+
+McPhee will take Bailey in expansion draft and that will be the moment we all realize that Snow is actually Keyser Söze! #isles
+Wednesday, July 13, 2016 8:01 AM
+
+@RoseTintedVisor McPhee will take Bailey in expansion draft and that will be the moment we all realize that Snow is actually Keyser Söze!
+Wednesday, July 13, 2016 7:47 AM
+
+@PJS_27 hopefully Revis will be joining him  #toast
+Thursday, September 15, 2016 8:54 PM
+
+@HaberMetrics5 multi-year... lol, it's TWO years! And depending on trades, we need d-men to expose to expansion draft.
+Tuesday, July 12, 2016 3:49 PM
+
+@KeithLHHockey I'm also hoping this is true. Garth/isles have to be owed at least a little favor for keeping him relevant in the NHL.
+Tuesday, July 12, 2016 8:51 PM
+
+@Khanoisseur Curious what your thoughts are on this article: https://t.co/en6y0HPfLq
+Tuesday, July 12, 2016 9:19 AM
+
+
+Command: spotify-this-song
+Paramaters: imagine
+
+
+Artist(s): Lil Wayne/g, Wiz Khalifa/g, Imagine Dragons
+Song Title: Sucker For Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)
+Preview URL: https://p.scdn.co/mp3-preview/96f9689e58c4d6188cc269c0c2089036c3817a2e?cid=null
+Album Title: Sucker For Pain (with Logic & Ty Dolla $ign feat. X Ambassadors)
+
+
+Command: spotify-this-song
+Paramaters: john+lennon+imagine
+
+
+Artist(s): John Lennon
+Song Title: Imagine - 2010 - Remaster
+Preview URL: https://p.scdn.co/mp3-preview/8995c11b9e4a866f37eced30cdc2038667f50cb7?cid=null
+Album Title: Imagine
+
+
+Command: movie-this
+Paramaters: gladiaor
+
+
+No movie found! Please try again.
+
+Command: movie-this
+Paramaters: gladiator
+
+
+Movie Title: Gladiator
+Release Year: 2000
+IMDB Rating: 8.5
+Country(ies) Produced in: USA, UK
+Movie Language(s): English
+Movie Plot: When a Roman general is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.
+Actors: Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed
+Rotten Tomatoes Rating: 7.2
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/gladiator/
+
+
+Command: do-what-it-says
+Paramaters: 
+
+
+Command: spotify-this-song
+Paramaters: I+Want+it+That+Way
+
+
+Artist(s): Backstreet Boys
+Song Title: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+Album Title: The Hits--Chapter One
+
+
+Command: my-tweets
+Paramaters: 
+
+RT @kylemathews: Introducing Typefaces — self-host open source fonts by converting typefaces into NPM packages.
+
+https://t.co/Txj4FEMb1T
+Wednesday, February 1, 2017 5:41 PM
+
+@SlimCliffy no matter how many times he says emphatically he's staying, people will continue to question him. Fine,… https://t.co/Z96BR9i35d
+Sunday, January 22, 2017 7:07 PM
+
+@SlimCliffy #isles
+Sunday, January 22, 2017 6:55 PM
+
+RT @eggheadio: ...learn about recursion. https://t.co/kzLs3m7HcX https://t.co/VFNBuCbDiA
+Tuesday, January 31, 2017 8:30 AM
+
+@SlimCliffy more than Van, Fla, and Col? They got a superstar center, a nice mix of young talent and vets. I don't… https://t.co/3YG1Su69x6
+Sunday, January 22, 2017 7:01 PM
+
+RT @brettyormark: RT &amp; follow me to win my #CEOseats for #Isles vs. Sharks on 10/18. Winner chosen tomorrow morning. #AllForIsles
+Monday, October 17, 2016 9:11 PM
+
+@StapeNewsday nice art! I see he's got your wife's hair color... Pretty cool. That pic immediately reminded me of t… https://t.co/IqnnGv8ZbD
+Thursday, October 13, 2016 8:26 AM
+
+@HaberMetrics5 maybe it's not so much judging PA but more about some kids(JHS, Barzal) proving they're ready and… https://t.co/5tnhKglerR
+Monday, October 10, 2016 11:38 AM
+
+@PJS_27 hopefully Revis will be joining him  #toast
+Thursday, September 15, 2016 8:54 PM
+
+RT @PJS_27: And that's why Rex will be in a broadcast booth the next time these teams play.
+Thursday, September 15, 2016 8:47 PM
+
+@salvatore51 @StapeNewsday That's assuming Garth is there for the length of 55's contract. No guarantee of that. 55 prob wouldn't chance it
+Thursday, July 28, 2016 4:25 PM
+
+@StapeNewsday Side deals are allowed, right? GS and McP can make deal to  not take JB. Waives NMC, #isles protect 3D, 7F. 3rd get it done?
+Thursday, July 28, 2016 3:14 PM
+
+@StapeNewsday What is your logic behind this? opt-out is 3 yrs away, no? Is there another opt-out? Or assuming can get out via other method?
+Thursday, July 28, 2016 2:50 PM
+
+@randimarshall always felt willets was perfect compromise. Still nyc, mass transit, close to LI with parking/tailgating possibilities
+Friday, July 22, 2016 5:47 PM
+
+OMG! This. is. AMAZING! https://t.co/fxX9sr4B2O
+Tuesday, July 19, 2016 2:15 PM
+
+McPhee will take Bailey in expansion draft and that will be the moment we all realize that Snow is actually Keyser Söze! #isles
+Wednesday, July 13, 2016 8:01 AM
+
+@RoseTintedVisor McPhee will take Bailey in expansion draft and that will be the moment we all realize that Snow is actually Keyser Söze!
+Wednesday, July 13, 2016 7:47 AM
+
+@KeithLHHockey I'm also hoping this is true. Garth/isles have to be owed at least a little favor for keeping him relevant in the NHL.
+Tuesday, July 12, 2016 8:51 PM
+
+@HaberMetrics5 multi-year... lol, it's TWO years! And depending on trades, we need d-men to expose to expansion draft.
+Tuesday, July 12, 2016 3:49 PM
+
+@Khanoisseur Curious what your thoughts are on this article: https://t.co/en6y0HPfLq
+Tuesday, July 12, 2016 9:19 AM
+
+
+Command: spotify-this-song
+Paramaters: john+lennon+imagine
+
+
+Artist(s): John Lennon
+Song Title: Imagine - 2010 - Remaster
+Preview URL: https://p.scdn.co/mp3-preview/8995c11b9e4a866f37eced30cdc2038667f50cb7?cid=null
+Album Title: Imagine
+
+
+Command: spotify-this-song
+Paramaters: john+lennon+imagine
+
+
+Artist(s): John Lennon
+Song Title: Imagine - 2010 - Remaster
+Preview URL: https://p.scdn.co/mp3-preview/8995c11b9e4a866f37eced30cdc2038667f50cb7?cid=null
+Album Title: Imagine
+
+
+Command: movie-this
+Paramaters: gladiator
+
+
+Movie Title: Gladiator
+Release Year: 2000
+IMDB Rating: 8.5
+Country(ies) Produced in: USA, UK
+Movie Language(s): English
+Movie Plot: When a Roman general is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.
+Actors: Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed
+Rotten Tomatoes Rating: 7.2
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/gladiator/
+
+
+Command: do-what-it-says
+Paramaters: 
+
+
+Command: spotify-this-song
+Paramaters: I+Want+it+That+Way
+
+
+Artist(s): Backstreet Boys
+Song Title: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+Album Title: The Hits--Chapter One
+
